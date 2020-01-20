@@ -54,6 +54,10 @@ header ul li a.app-btn:hover {
   color: #FFF;
 }
 
+.lang::after {
+  content: '';
+}
+
 /* dropdown menu */
 
 .dropdown {
@@ -74,4 +78,16 @@ header ul li a.app-btn:hover {
 
 .products-dd {
   left: 107px;
+}
+
+.company-dd {
+  left: 290px;
+}
+
+.help-dd {
+  left: 357px;
+}
+
+.lang-dd {
+  left: 465px;
 }
