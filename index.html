@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-    <script src="js/script.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <title>Revolut</title>
   </head>
   <body>
@@ -18,7 +18,14 @@
     <!-- header right -->
     <ul class="nav-right">
       <li><a href="#">Tariffazione</a></li>
-      <li><a href="#">Conti</a></li>
+      <li class="dropdown-link">
+        <a href="#">Accounts</a>
+        <ul class="dropdown">
+          <li><a href="#">Standard</a></li>
+          <li><a href="#">Premium</a></li>
+          <li><a href="#">Metal</a></li>
+        </ul>
+      </li>
       <li><a href="#">Prodotti</a></li>
       <li><a href="#">Azienda</a></li>
       <li><a href="#">Aiuto</a></li>
@@ -26,5 +33,6 @@
       <li><a href="#" class="app-btn">Scarica l'app</a></li>
     </ul>
   </header>
+  <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>

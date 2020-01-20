@@ -11,13 +11,19 @@ header {
   padding-top: 30px;
 }
 
-ul {
+.nav-left,
+.nav-right {
   display: flex;
   align-items: center;
 }
+
+.nav-right {
+  position: relative;
+}
+
 ul li {
   list-style: none;
-  margin-right: 20px;
+  margin: 20px;
 }
 ul li a img {
   height: 30px;
@@ -46,4 +52,20 @@ ul.nav-right li a:hover {
 header ul li a.app-btn:hover {
   background-color: #D2007E;
   color: #FFF;
+}
+
+/* dropdown menu */
+
+.dropdown {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 55px;
+  left: 109px;
+  border: 1px solid black;
+  padding: 10px 18px;
+}
+
+.active {
+  display: flex;
 }
