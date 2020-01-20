@@ -62,10 +62,16 @@ header ul li a.app-btn:hover {
   position: absolute;
   top: 55px;
   left: 109px;
-  border: 1px solid black;
+  -webkit-box-shadow: 0px 0px 6px 3px rgba(227,227,227,1);
+  -moz-box-shadow: 0px 0px 6px 3px rgba(227,227,227,1);
+  box-shadow: 0px 0px 6px 3px rgba(227,227,227,1);
   padding: 10px 18px;
 }
 
 .active {
   display: flex;
+}
+
+.products-dd {
+  left: 107px;
 }
