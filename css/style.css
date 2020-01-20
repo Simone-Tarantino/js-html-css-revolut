@@ -54,9 +54,34 @@ header ul li a.app-btn:hover {
   color: #FFF;
 }
 
-.lang::after {
-  content: '';
+.lang i {
+  font-size: 10px;
 }
+
+.beta {
+  position: relative;
+}
+.beta::after {
+  content: 'beta';
+  font-size: 12px;
+  font-weight: bold;
+  color: #EB008D;
+  position: absolute;
+  top: -5px;
+}
+
+.new {
+  position: relative;
+}
+.new::after {
+  content: 'Nuovo';
+  font-size: 12px;
+  font-weight: bold;
+  color: #EB008D;
+  position: absolute;
+  top: -7px;
+}
+
 
 /* dropdown menu */
 
@@ -89,5 +114,5 @@ header ul li a.app-btn:hover {
 }
 
 .lang-dd {
-  left: 465px;
+  left: 469px;
 }
