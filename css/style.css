@@ -8,8 +8,8 @@
 header {
   display: flex;
   justify-content: space-around;
+  padding-top: 30px;
 }
-
 
 ul {
   display: flex;
@@ -24,4 +24,26 @@ ul li a img {
 }
 ul li a {
   text-decoration: none;
+  color: #8B959E;
+}
+ul.nav-left li a {
+  color: #191C1F;
+}
+ul.nav-left li:last-child a {
+  color: #8B959E;
+}
+ul.nav-left li a:hover,
+ul.nav-right li a:hover {
+  color: #191C1F;
+}
+
+.app-btn {
+  background-color: #EB008D;
+  color: #FFF;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+header ul li a.app-btn:hover {
+  background-color: #D2007E;
+  color: #FFF;
 }
