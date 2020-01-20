@@ -1,10 +1,14 @@
 $(document).ready(
   function () {
-    $('.dropdown-link > a').hover (
+    $('.dropdown-link > a').mouseenter (
       function () {
+        $('.dropdown').removeClass('active');
         $(this).next('.dropdown').addClass('active');
-      }, function () {
-        $(this).next('.dropdown').removeClass('active');
+      }
+    );
+    $('body').click (
+      function () {
+        $('.dropdown').removeClass('active');
       }
     );
   }
